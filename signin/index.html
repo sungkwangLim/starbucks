@@ -409,7 +409,18 @@
 
         </div>
     </footer>
-
+<script>
+    const test = function (a,b,hy,mo) {
+        var de1 = Number(a);
+        var per1 = Number(b);
+        var y = Number(hy * 12);
+        for(var i=1; i<=y ; i++){		
+            de1 = de1 + (de1*per1) + mo;
+        }
+        return de1;
+    }
+    console.log(test(10000,0.005,5,0))
+</script>
 </body>
 
 </html>
